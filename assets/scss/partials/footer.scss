@@ -1,0 +1,22 @@
+.footer {
+    background-color: $fbBlue;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    .footer__icon {
+        i {
+            color: white;
+            margin-left: 10px;
+            font-size: 40px;
+        }
+    }
+    .footer__text {
+        display: flex;
+        margin-top: 15px;
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 10px;
+        text-transform: uppercase;
+    }
+}
